@@ -1,0 +1,7 @@
+---
+name: OreReplacer
+version: 1.0.1
+api: 3.0.0
+author: OguzhanUmutlu
+main: OguzhanUmutlu\OreReplacer\Main
+...
