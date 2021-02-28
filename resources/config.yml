@@ -1,0 +1,46 @@
+---
+# Don't change it!
+config-version: 2
+
+
+# How many blocks away from block and air?
+# If your server lagging we reccommend increasing it. If you increase it too much it can cause lag.
+check-radius-from: 5
+
+
+# How many blocks will be filled from the "check-radius-from" number?
+check-radius-to: 7
+
+
+# Which blocks will be replaced to fake ore?
+replace-blocks:
+- "1:0" # stone
+- "87:0" # netherrack
+
+
+# Which are the fake blocks?
+ores:
+- "16:0"   # coal ore
+- "15:0" # iron ore
+- "14:0" # gold ore
+- "21:0" # lapis ore
+# TODO: - "73:0" # redstone ore
+# Do not use redstone ore in config-version 1 or 2!
+# And do not change config-version! (It won't fix it)
+- "56:0" # diamond ore
+- "129:0" # emerald ore
+- "153:0" # nether quartz ore
+
+
+# Black/white listing worlds
+
+
+# In this worlds plugin won't work. To set none type ""
+# PUT JUST , BETWEEN THE WORLD NAMES!!!
+blacklist: "world1,world2"
+
+
+# If you don't set it to "" it will work only in this worlds.
+# PUT JUST , BETWEEN THE WORLD NAMES!!!
+whitelist: ""
+...
